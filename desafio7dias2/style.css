@@ -1,0 +1,49 @@
+/* Fondo azul cielo */
+body {
+    background-color: #87CEEB; /* Azul cielo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centrar verticalmente */
+    text-align: center;
+}
+
+/* Contenedor centrado */
+.container {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+h1 {
+    color: #333;
+}
+
+/* Tabla estilizada */
+table {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las celdas */
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Encabezados en azul */
+th {
+    background-color: #0288d1; /* Azul oscuro */
+    color: white;
+}
